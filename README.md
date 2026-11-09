@@ -2,24 +2,29 @@
 
 **Building Nova: A Customer Education Assistant**
 
-Project Horizon is a hands-on Python and AI learning project focused on building Nova, a customer education assistant for Horizon Training & Certification, a fictional SaaS learning platform.
+Project Horizon is an independent learning and portfolio project exploring the intersection of **Customer Education strategy, learning technology, and AI**.
 
-The goal is to explore how AI, knowledge management, and learning technology can work together to deliver scalable, accessible customer education.
+I'm building Nova, a customer education assistant for Horizon Training & Certification, a fictional SaaS learning platform.
+
+The project is grounded in a challenge I've encountered throughout my Customer Education career: delivering accurate, accessible learning resources at scale while maintaining a sustainable infrastructure behind them.
+
+Through Project Horizon, I'm developing hands-on technical skills in Python, application development, and AI while applying my experience in learning systems architecture, knowledge management, and customer enablement.
 
 ## Meet Nova
 
+Nova is an evolving customer education assistant designed to help users find relevant guidance about Horizon's training and certification platform.
+
 ![Nova's Streamlit interface](screenshots/nova-v0.5.png)
 
-Nova helps users find relevant guidance about Horizon's training and certification platform.
+### Current Capabilities
 
-### Current Features
-- **Knowledge base:** Structured articles covering learning paths, certifications, enrollment, analytics, and user management.
-- **Question recognition:** Keyword-based topic matching that recognizes common variations in customer questions.
-- **Role-based access:** Restricts administrator-only articles based on the selected user role.
-- **Interactive interface:** A branded web application built with Streamlit.
-- **Automated testing:** Six pytest tests covering topic recognition and article access permissions.
+- **Structured knowledge base:** Articles covering learning paths, certifications, enrollment, analytics, and user management.
+- **Question recognition:** Rule-based keyword matching that accommodates common variations in customer questions.
+- **Role-based access:** Different knowledge permissions for administrators and learners.
+- **User experience:** A branded Streamlit interface designed around straightforward, self-service support.
+- **Quality assurance:** Six automated pytest tests covering topic recognition and access permissions.
 
-**Current development stage:** Nova uses rule-based question matching. AI-powered retrieval and response generation are planned future enhancements.
+Nova currently uses rule-based matching rather than AI-generated responses. AI-powered retrieval, source citations, and evaluation are planned future enhancements.
 
 ## Technology
 
@@ -30,17 +35,19 @@ Nova helps users find relevant guidance about Horizon's training and certificati
 
 ## Getting Started
 
-1. Clone the repository.
-2. Install the required Python dependencies (`streamlit` and `pytest`).
-3. Run the application:
+Clone the repository, then install the required dependencies:
+
+```bash
+python -m pip install streamlit pytest
+```
+
+Launch Nova:
 
 ```bash
 python -m streamlit run app.py
 ```
 
-4. Open the local address provided by Streamlit.
-
-To run the automated tests:
+Run the automated tests:
 
 ```bash
 python -m pytest test_nova.py -v
@@ -54,18 +61,20 @@ python -m pytest test_nova.py -v
 - [x] Build a branded Streamlit interface
 - [x] Create automated tests
 - [x] Establish Git version control
-- [ ] Improve question matching and handling of ambiguous queries
+- [ ] Improve question matching and ambiguous-query handling
 - [ ] Implement AI-powered retrieval with source citations
-- [ ] Evaluate answer accuracy and reliability
-- [ ] Document findings in a portfolio case study
+- [ ] Evaluate response accuracy and reliability
+- [ ] Develop a portfolio case study documenting technical and strategic decisions
 
-## Why I'm Building This
+## Why This Project Matters
 
-My background is in Customer Education, instructional design, and learning systems management. I've spent years developing scalable education programs, certification experiences, and the infrastructure that supports them.
+My professional background is in Customer Education leadership, instructional design, and learning systems management. I've built and scaled SaaS education programs, developed certification programs, and worked to connect learning infrastructure with product experiences.
 
-Project Horizon is an opportunity to combine that experience with hands-on software development and AI exploration.
+I believe effective Customer Education leadership increasingly requires more than expertise in learning design. It requires an understanding of the systems, data, integrations, and emerging technologies that make education programs scalable and sustainable.
 
-Rather than simply experimenting with AI tools, I'm learning how to build, test, and evaluate an application that addresses a real customer education challenge: helping users find trustworthy information when they need it.
+Project Horizon is my opportunity to deepen that technical fluency through practical application.
+
+**My goal isn't to become a software engineer. It's to become a more technically capable Customer Education leader—one who can evaluate opportunities, collaborate effectively with engineering teams, and help design better learning systems.**
 
 ---
 
