@@ -2,6 +2,8 @@ import streamlit as st
 
 from knowledge_base import get_article_content, identify_topic
 
+from pathlib import Path
+
 #Page configuration
 st.set_page_config(page_title="Nova | Horizon", page_icon="✨", layout="wide")
 
@@ -27,7 +29,7 @@ st.caption("HORIZON | TRAINING & CERTIFICATION")
 left_col, right_col = st.columns([0.1, 1.5], gap="medium")
 
 with left_col:
-    st.image("nova_logo.png", width=100)
+    st.image(Path(__file__).parent / "nova_logo.png", width=100)
 
 with right_col:
     st.title("Meet Nova")
